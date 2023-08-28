@@ -1,0 +1,37 @@
+[project]
+name = "recordbook"
+version = "0.5.1"
+authors = [
+    { name="Olexandr Levchenko", email="levchenko.aah@gmail.com"},
+    { name="Maxim Krivitsky", email="max.krivitskyh@gmail.com"},
+    { name="Natalia Semeniuk", email="semnatalis52@gmail.com"},
+    { name="Tetiana Chyrkova", email="tanichka.chirkova@gmail.com"},
+    { name="Oleg Demydenko", email="officedenko@gmail.com"},
+    { name="Vadim Marenko", email="vadim.marenko@gmail.com" },
+]
+description = "Command Line Interface bot-assistant"
+readme = "README.md"
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    "rich >= 13.0.0",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Aleksandr-Levchenko/Project_Core_group1_ver.1"
+"Bug Tracker" = "https://github.com/Aleksandr-Levchenko/Project_Core_group1_ver.1"
+
+[build-system]
+requires = [
+    "setuptools >= 40.9.0",    
+    ]
+build-backend = "setuptools.build_meta"
+
+
+[project.scripts]
+recordbook = "recordbook.main:main"
